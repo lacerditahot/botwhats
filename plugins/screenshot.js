@@ -24,5 +24,5 @@ Asena.addCommand({pattern: 'ss ?(.*)', fromMe: wk, desc: Lang.SS_DESC}, (async (
   } catch {
     return await message.client.sendMessage(message.jid,'*❌ Error!*', MessageType.text);
   }
-  await message.sendMessage(Buffer.from(bufferdata), MessageType.image, {mimetype: Mimetype.png, caption: 'Made by WhatsAsena'})
+  await message.sendMessage(Buffer.from(bufferdata), MessageType.image, {mimetype: Mimetype.png, caption: '*camilo 👨‍💻*'})
 }));
